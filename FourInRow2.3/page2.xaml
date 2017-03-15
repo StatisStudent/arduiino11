@@ -1,0 +1,67 @@
+﻿<Page
+    x:Class="App1.page2"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:App1"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+
+    <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+        <TextBlock x:Name="pageTitle" Text="" Margin="-87,122,87,-122" />
+
+        <Rectangle Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="559" Margin="121,79,0,0" Stroke="Black" VerticalAlignment="Top" Width="1058"/>
+        <Ellipse x:Name="_56" Fill="#FFFCFCFC" HorizontalAlignment="Left" Height="77" Margin="1051,133,0,0" Stroke="Black" VerticalAlignment="Top" Width="84"/>
+        <Grid HorizontalAlignment="Left" Height="100" Margin="633,454,0,0" VerticalAlignment="Top" Width="100"/>
+        <Ellipse x:Name="_46" Fill="#FFFCFCFC" HorizontalAlignment="Left" Height="77" Margin="1051,213,0,0" Stroke="Black" VerticalAlignment="Top" Width="84"/>
+        <Ellipse x:Name="_36" Fill="#FFFCFCFC" HorizontalAlignment="Left" Height="77" Margin="1051,293,0,0" Stroke="Black" VerticalAlignment="Top" Width="84"/>
+        <Ellipse x:Name="_26" Fill="#FFFCFCFC" HorizontalAlignment="Left" Height="77" Margin="1051,373,0,0" Stroke="Black" VerticalAlignment="Top" Width="84"/>
+        <Ellipse x:Name="_16" Fill="#FFFCFCFC" HorizontalAlignment="Left" Height="77" Margin="1051,453,0,0" Stroke="Black" VerticalAlignment="Top" Width="84"/>
+        <Ellipse x:Name="_06" Fill="#FFFCFCFC" HorizontalAlignment="Left" Height="77" Margin="1051,533,0,0" Stroke="Black" VerticalAlignment="Top" Width="84"/>
+        <Ellipse x:Name="_55" Fill="#FFFCFCFC" HorizontalAlignment="Left" Height="77" Margin="906,133,0,0" Stroke="Black" VerticalAlignment="Top" Width="84"/>
+        <Ellipse x:Name="_45" Fill="#FFFCFCFC" HorizontalAlignment="Left" Height="77" Margin="906,213,0,0" Stroke="Black" VerticalAlignment="Top" Width="84"/>
+        <Ellipse x:Name="_35" Fill="#FFFCFCFC" HorizontalAlignment="Left" Height="77" Margin="906,293,0,0" Stroke="Black" VerticalAlignment="Top" Width="84"/>
+        <Ellipse x:Name="_25" Fill="#FFFCFCFC" HorizontalAlignment="Left" Height="77" Margin="906,373,0,0" Stroke="Black" VerticalAlignment="Top" Width="84"/>
+        <Ellipse x:Name="_15" Fill="#FFFCFCFC" HorizontalAlignment="Left" Height="77" Margin="906,453,0,0" Stroke="Black" VerticalAlignment="Top" Width="84"/>
+        <Ellipse x:Name="_05" Fill="#FFFCFCFC" HorizontalAlignment="Left" Height="77" Margin="906,533,0,0" Stroke="Black" VerticalAlignment="Top" Width="84"/>
+        <Ellipse x:Name="_54" Fill="#FFFCFCFC" HorizontalAlignment="Left" Height="77" Margin="761,133,0,0" Stroke="Black" VerticalAlignment="Top" Width="84"/>
+        <Ellipse x:Name="_44" Fill="#FFFCFCFC" HorizontalAlignment="Left" Height="77" Margin="761,213,0,0" Stroke="Black" VerticalAlignment="Top" Width="84"/>
+        <Ellipse x:Name="_34" Fill="#FFFCFCFC" HorizontalAlignment="Left" Height="77" Margin="761,293,0,0" Stroke="Black" VerticalAlignment="Top" Width="84"/>
+        <Ellipse x:Name="_24" Fill="#FFFCFCFC" HorizontalAlignment="Left" Height="77" Margin="761,373,0,0" Stroke="Black" VerticalAlignment="Top" Width="84"/>
+        <Ellipse x:Name="_14" Fill="#FFFCFCFC" HorizontalAlignment="Left" Height="77" Margin="761,453,0,0" Stroke="Black" VerticalAlignment="Top" Width="84"/>
+        <Ellipse x:Name="_04" Fill="#FFFCFCFC" HorizontalAlignment="Left" Height="77" Margin="761,533,0,0" Stroke="Black" VerticalAlignment="Top" Width="84"/>
+        <Ellipse x:Name="_53" Fill="#FFFCFCFC" HorizontalAlignment="Left" Height="77" Margin="616,133,2,0" Stroke="Black" VerticalAlignment="Top" Width="84"/>
+        <Ellipse x:Name="_43" Fill="#FFFCFCFC" HorizontalAlignment="Left" Height="77" Margin="616,213,2,0" Stroke="Black" VerticalAlignment="Top" Width="84"/>
+        <Ellipse x:Name="_33" Fill="#FFFCFCFC" HorizontalAlignment="Left" Height="77" Margin="616,293,2,0" Stroke="Black" VerticalAlignment="Top" Width="84"/>
+        <Ellipse x:Name="_23" Fill="#FFFCFCFC" HorizontalAlignment="Left" Height="77" Margin="616,373,2,0" Stroke="Black" VerticalAlignment="Top" Width="84"/>
+        <Ellipse x:Name="_13" Fill="#FFFCFCFC" HorizontalAlignment="Left" Height="77" Margin="616,453,2,0" Stroke="Black" VerticalAlignment="Top" Width="84"/>
+        <Ellipse x:Name="_03" Fill="#FFFCFCFC" HorizontalAlignment="Left" Height="77" Margin="616,533,2,0" Stroke="Black" VerticalAlignment="Top" Width="84"/>
+        <Ellipse x:Name="_50" Fill="#FFFCFCFC" HorizontalAlignment="Left" Height="77" Margin="181,133,0,0" Stroke="Black" VerticalAlignment="Top" Width="84" RenderTransformOrigin="-0.664,0.338"/>
+        <Ellipse x:Name="_40" Fill="#FFFCFCFC" HorizontalAlignment="Left" Height="77" Margin="181,213,0,0" Stroke="Black" VerticalAlignment="Top" Width="84"/>
+        <Ellipse x:Name="_30" Fill="#FFFCFCFC" HorizontalAlignment="Left" Height="77" Margin="181,293,0,0" Stroke="Black" VerticalAlignment="Top" Width="84"/>
+        <Ellipse x:Name="_20" Fill="#FFFCFCFC" HorizontalAlignment="Left" Height="77" Margin="181,373,0,0" Stroke="Black" VerticalAlignment="Top" Width="84"/>
+        <Ellipse x:Name="_10" Fill="#FFFCFCFC" HorizontalAlignment="Left" Height="77" Margin="181,453,0,0" Stroke="Black" VerticalAlignment="Top" Width="84"/>
+        <Ellipse x:Name="_00" Fill="#FFFCFCFC" HorizontalAlignment="Left" Height="77" Margin="181,533,0,0" Stroke="Black" VerticalAlignment="Top" Width="84"/>
+        <Ellipse x:Name="_52" Fill="#FFFCFCFC" HorizontalAlignment="Left" Height="77" Margin="471,133,0,0" Stroke="Black" VerticalAlignment="Top" Width="84"/>
+        <Ellipse x:Name="_42" Fill="#FFFCFCFC" HorizontalAlignment="Left" Height="77" Margin="471,213,0,0" Stroke="Black" VerticalAlignment="Top" Width="84"/>
+        <Ellipse x:Name="_32" Fill="#FFFCFCFC" HorizontalAlignment="Left" Height="77" Margin="471,293,0,0" Stroke="Black" VerticalAlignment="Top" Width="84"/>
+        <Ellipse x:Name="_22" Fill="#FFFCFCFC" HorizontalAlignment="Left" Height="77" Margin="471,373,0,0" Stroke="Black" VerticalAlignment="Top" Width="84"/>
+        <Ellipse x:Name="_12" Fill="#FFFCFCFC" HorizontalAlignment="Left" Height="77" Margin="471,453,0,0" Stroke="Black" VerticalAlignment="Top" Width="84"/>
+        <Ellipse x:Name="_02" Fill="#FFFCFCFC" HorizontalAlignment="Left" Height="77" Margin="471,533,0,0" Stroke="Black" VerticalAlignment="Top" Width="84"/>
+        <Ellipse x:Name="_51" Fill="#FFFCFCFC" HorizontalAlignment="Left" Height="77" Margin="326,133,0,0" Stroke="Black" VerticalAlignment="Top" Width="84"/>
+        <Ellipse x:Name="_41" Fill="#FFFCFCFC" HorizontalAlignment="Left" Height="77" Margin="326,213,0,0" Stroke="Black" VerticalAlignment="Top" Width="84"/>
+        <Ellipse x:Name="_31" Fill="#FFFCFCFC" HorizontalAlignment="Left" Height="77" Margin="326,293,0,0" Stroke="Black" VerticalAlignment="Top" Width="84"/>
+        <Ellipse x:Name="_21" Fill="#FFFCFCFC" HorizontalAlignment="Left" Height="77" Margin="326,373,0,0" Stroke="Black" VerticalAlignment="Top" Width="84"/>
+        <Ellipse x:Name="_11" Fill="#FFFCFCFC" HorizontalAlignment="Left" Height="77" Margin="326,453,0,0" Stroke="Black" VerticalAlignment="Top" Width="84"/>
+        <Ellipse x:Name="_01" Fill="#FFFCFCFC" HorizontalAlignment="Left" Height="77" Margin="326,533,0,0" Stroke="Black" VerticalAlignment="Top" Width="84"/>
+        <Button x:Name="button_0" Content="1" HorizontalAlignment="Left" Margin="181,10,0,0" VerticalAlignment="Top" RenderTransformOrigin="1.269,0.672" Height="45" Width="84" Click="button_Click0" Background="#33FB0000" FontSize="24"/>
+        <Button x:Name="button_1" Content="2" HorizontalAlignment="Left" Margin="326,10,0,0" VerticalAlignment="Top" RenderTransformOrigin="1.269,0.672" Height="45" Width="84" Click="button_Click1" Background="#33FB0000" FontSize="24"/>
+        <Button x:Name="button_2" Content="3" HorizontalAlignment="Left" Margin="471,10,0,0" VerticalAlignment="Top" RenderTransformOrigin="1.269,0.672" Height="45" Width="84" Click="button_Click2" Background="#33FB0000" FontSize="24"/>
+        <Button x:Name="button_3" Content="4" HorizontalAlignment="Left" Margin="616,10,0,0" VerticalAlignment="Top" RenderTransformOrigin="1.269,0.672" Height="45" Width="84" Click="button_Click3" Background="#33FB0000" FontSize="24"/>
+        <Button x:Name="button_4" Content="5" HorizontalAlignment="Left" Margin="761,10,0,0" VerticalAlignment="Top" RenderTransformOrigin="1.269,0.672" Height="45" Width="84" Click="button_Click4" Background="#33FB0000" FontSize="24"/>
+        <Button x:Name="button_5" Content="6" HorizontalAlignment="Left" Margin="906,10,0,0" VerticalAlignment="Top" RenderTransformOrigin="1.269,0.672" Height="45" Width="84" Click="button_Click5" Background="#33FB0000" FontSize="24"/>
+        <Button x:Name="button_6" Content="7" HorizontalAlignment="Left" Margin="1051,10,0,0" VerticalAlignment="Top" RenderTransformOrigin="1.269,0.672" Height="45" Width="84" Click="button_Click6" Background="#33FB0000" FontSize="24"/>
+        <TextBlock x:Name="textBlock" HorizontalAlignment="Left" Margin="19,44,0,0" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top" Height="124" Width="1232" SelectionChanged="textBlock_SelectionChanged" FontSize="72"/>
+    </Grid>
+</Page>

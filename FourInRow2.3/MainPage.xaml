@@ -1,0 +1,47 @@
+﻿<Page
+    x:Class="App1.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:App1"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+    <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+        <TextBox x:Name="name_input" Header="Name:" HorizontalAlignment="Left" Margin="56,81,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" TextChanged="textBox_TextChanged" Height="143" Width="598" FontSize="48" RenderTransformOrigin="0.5,0.5"/>
+        <ComboBox x:Name="country_input" Header="Country:" HorizontalAlignment="Left" Margin="56,270,0,0" VerticalAlignment="Top" Width="598" SelectionChanged="country_input_SelectionChanged" Height="162" FontSize="48">
+            <ComboBoxItem Content="China"/>
+            <ComboBoxItem Content="Israel" IsSelected="True"/>
+            <ComboBoxItem Content="Germany"/>
+            <ComboBoxItem Content="United States"/>
+            <ComboBoxItem Content="Russia"/>
+        </ComboBox>
+        <HyperlinkButton  x:Name="button" Content="Submit" HorizontalAlignment="Center" Margin="56,474,623,0" VerticalAlignment="Top" Click="button_Click" Width="601" Height="56">
+            <HyperlinkButton.Background>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="#FFDBD515" Offset="0"/>
+                    <GradientStop Color="#FFE90E0E" Offset="1"/>
+                </LinearGradientBrush>
+            </HyperlinkButton.Background>
+        </HyperlinkButton>
+        <Button x:Name="Statistics" Content="Statistics" HorizontalAlignment="Left" Margin="56,567,0,0" VerticalAlignment="Top" Width="601" Height="70" FontSize="36" Click="Statistics_Click"/>
+        <ListView x:Name="ListItems" SelectionChanged="ListItems_SelectionChanged" Margin="706,168,0,62">
+            <ListView.ItemTemplate>
+                <DataTemplate>
+                    <TextBlock
+                        x:Name="ItemText"  MaxWidth="550" HorizontalAlignment="Left" TextWrapping="WrapWholeWords">
+                        <Run Text="{Binding Country}" />
+                        <Run Text="{Binding Amount}" />
+                        </TextBlock>
+                    <!--    <CheckBox x:Name="CheckBoxComplete" 
+                        IsChecked="{Binding Complete, Mode=TwoWay}" 
+                        Checked="CheckBoxComplete_Checked" 
+                        MaxWidth="550"
+                        VerticalAlignment="Center">
+                    </CheckBox> -->
+                </DataTemplate>
+            </ListView.ItemTemplate>
+        </ListView>
+
+    </Grid>
+</Page>
